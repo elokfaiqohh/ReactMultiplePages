@@ -9,7 +9,7 @@ import Footer from "./pages/Footer"
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/ReactMultiplePages">
       <Navbar />
         <Routes>
           {/* <Route index element={<Home/>}/> */}
